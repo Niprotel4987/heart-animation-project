@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EAN13 Barcode - Inside a Barcode</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Por dentro de um código de barras <span>Onde está o décimo terceiro dígito?
+    </span></h1>
+    <p class="subtitle">Doze dígitos representados por barras, treze dígitos impressos. O primeiro dígito não possui barras.</p>
+    
+    <div class="input-box">
+      <input type="text" id="eanInput" value="7891000315507" maxlength="13" placeholder="Digite 13 digitos (ex: 7891000315507)">
+      <button onclick="generate()">GERAR CÓDIGO</button>
+    </div>
+
+    <div class="card">
+      <canvas id="barcode" width="800" height="180"></canvas>
+      <div id="numbers" class="numbers"></div>
+      <div id="explanation" class="explanation"></div>
+    </div>
+
+    <div class="code-box">
+      <h3>Como o código funciona (igual do vídeo):</h3>
+      <pre id="codeView"></pre>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

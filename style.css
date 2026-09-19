@@ -1,0 +1,19 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0f0f0f; color:#e0e0e0; font-family: 'Consolas', 'Courier New', monospace; min-height:100vh; display:flex; justify-content:center; padding:20px; }
+.app { max-width:850px; width:100%; }
+h1 { font-size:32px; text-align:center; margin-top:10px; }
+h1 span { display:block; font-size:16px; color:#888; font-weight:normal; margin-top:5px; }
+.subtitle { text-align:center; color:#aaa; margin:10px 0 25px; font-size:14px; }
+.input-box { display:flex; gap:10px; justify-content:center; margin-bottom:25px; }
+.input-box input { background:#1e1e1e; border:1px solid #333; color:white; padding:12px 15px; font-size:18px; width:260px; border-radius:6px; letter-spacing:2px; }
+.input-box button { background:#fff; color:#000; border:none; padding:0 25px; font-weight:bold; border-radius:6px; cursor:pointer; letter-spacing:1px; }
+.input-box button:hover { background:#00ff88; }
+.card { background:#151515; border:1px solid #222; border-radius:12px; padding:20px; text-align:center; }
+#barcode { background:white; border-radius:6px; max-width:100%; }
+.numbers { margin-top:10px; font-size:22px; letter-spacing:6px; color:white; display:flex; justify-content:center; gap:2px; }
+.numbers b { color:#00ff88; }
+.explanation { margin-top:15px; text-align:left; background:#1c1c1c; padding:15px; border-radius:8px; font-size:13px; line-height:1.6; color:#bbb; }
+.explanation strong { color:#00ff88; }
+.code-box { margin-top:25px; background:#0a0a0a; border:1px solid #222; border-radius:8px; padding:15px; }
+.code-box h3 { font-size:14px; color:#888; margin-bottom:10px; }
+.code-box pre { font-size:12px; color:#6cf; overflow-x:auto; white-space:pre-wrap; }
